@@ -35,6 +35,6 @@ func TestSqlInjection(t *testing.T) {
 			panic(err)
 		}
 	} else {
-		fmt.Println("Failed Login")
+		fmt.Println("Login Failed")
 	}
 }
